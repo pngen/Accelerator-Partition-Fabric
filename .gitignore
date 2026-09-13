@@ -1,0 +1,38 @@
+# Build trees
+/build/
+/build-*/
+/out/
+/install/
+/_install/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+compile_commands.json
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.exe
+*.so
+*.dylib
+*.a
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.user
+
+# Runtime artifacts produced by tests/examples/benchmarks
+*.apfstate
+*.apfdev
+*.apflog
+*.tmp
+apf-runtime-*/
+*.log
+*.dmp
